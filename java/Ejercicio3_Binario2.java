@@ -5,15 +5,15 @@ public class Ejercicio3_Binario2 {
     }
 
     public static void main(String[] args) {
-        //        1
-        //         \
-        //          2
-        //         /
-        //        3
+        // 1
+        // \
+        // 2
+        // /
+        // 3
         Nodo raiz = new Nodo(1);
         raiz.derecho = new Nodo(2);
         raiz.derecho.izquierdo = new Nodo(3);
-        
+
         System.out.println("--- Prueba Ejercicio 3 ---");
         System.out.println("Altura esperada: 3");
         System.out.println("Altura calculada: " + calcularAltura(raiz));
